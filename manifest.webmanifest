@@ -1,7 +1,7 @@
 {
   "name": "Dad Strong",
   "short_name": "Dad Strong",
-  "description": "A 12-week Tonal Basic Lift, core recovery, and heart-health tracker.",
+  "description": "Dad Strong v1.2: a 12-week Tonal Basic Lift, core recovery, posture mobility, and heart-health tracker.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
