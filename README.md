@@ -1,6 +1,16 @@
-# Dad Strong v1.2
+# Dad Strong v1.3
 
-Personal 12-week workout, core recovery, posture/mobility, and LDL-support tracker. This release preserves the existing Tonal Basic Lift program and browser data storage while adding a posture library, a daily reset, and warm-up/recovery integration.
+Personal 12-week workout, core recovery, posture/mobility, and LDL-support tracker. This release replaces the split routine with alternating Full Body A/B training while preserving browser data, the posture library, core-pressure safeguards, Zone 2 tracking, and Tonal Basic Lift support. Every strength movement includes a practical dumbbell or kettlebell route when the Tonal area is unavailable.
+
+## v1.3 schedule
+
+- Odd weeks: Monday A, Wednesday B, Friday A
+- Even weeks: Monday B, Wednesday A, Friday B
+- Tuesday: Zone 2 + mobility
+- Thursday: recovery + Zone 2
+- Saturday: family activity
+- Sunday: rest + weekly review
+- Weeks 4 and 8 are deloads; Week 12 consolidates the cycle.
 
 ## GitHub Pages setup
 
@@ -19,9 +29,9 @@ Your entries are stored in the browser on that device. Use the app's Export Data
 ## Updating the existing repository
 
 1. Export a backup from **Review → Export data**.
-2. Unzip the Dad Strong v1.2 package.
+2. Unzip the Dad Strong v1.3 package.
 3. In the existing `Dad-Strong-v2` repository, choose **Add file → Upload files**.
-4. Upload the six individual files from the unzipped folder and replace files with the same names.
+4. Upload the seven individual files from the unzipped folder and replace files with the same names.
 5. Commit the changes to `main`, wait a few minutes, then fully close and reopen the Home Screen app.
 
-The v1.2 service worker uses a new cache name and checks the network first for page navigations, so future GitHub Pages updates should appear more reliably. Do not upload the ZIP itself to the repository root.
+The v1.3 service worker uses a new cache name and checks the network first for page navigations, so future GitHub Pages updates should appear more reliably. Do not upload the ZIP itself to the repository root.

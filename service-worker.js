@@ -1,5 +1,5 @@
-const CACHE = "dad-strong-v1.2-20260831";
-const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
+const CACHE = "dad-strong-v1.3-20260922";
+const ASSETS = ["./", "./index.html", "./program-v13.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
